@@ -13,6 +13,7 @@ body {
     height: 570px;
     background: #e9e9eb;
     box-shadow: 10px 10px 30px gray;
+    border-radius: 12px;
     padding: 30px;
     text-align: center;
 }
@@ -34,9 +35,10 @@ body {
 }
 
 input[type='text']{
-    background-color: #3D4153;
+    background-color: #f9f9fa;
+    box-shadow: inset 2px 2px 30px rgb(231, 227, 227);
     padding: 10px 0px;
-    color: #ffffff;
+    color: #eeebeb;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
@@ -44,8 +46,8 @@ input[type='text']{
     padding: 10px;
 }
 input[type='text']:focus {
-    background-color: #3D4153;
-    color: #fff;
+    background-color: #f9f9fa;
+    color: rgb(19, 18, 18);
     font-size: 20px;
 }
 .numbers {
