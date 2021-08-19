@@ -24,7 +24,7 @@ body {
     border-radius: 50%;
     border: 8px solid #39458C;
     background-color: #495BC3;
-    color: #ffffff;
+    color: #f8f8f8;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -38,7 +38,8 @@ input[type='text']{
     background-color: #f9f9fa;
     box-shadow: inset 2px 2px 30px rgb(231, 227, 227);
     padding: 10px 0px;
-    color: #eeebeb;
+    color: #292929;
+    font-weight: 700;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
