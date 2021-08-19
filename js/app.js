@@ -17,3 +17,18 @@ function generatePin(){
 
 }
 
+document.getElementById('key-pad').addEventListener('click', function(event){
+    const number = event.target.innerText;
+    const calc = document.getElementById('display-number');
+    if(isNaN(number)){
+        if(number == 'C'){
+            calc.value = '';
+        }
+    }
+    else{
+        
+        const previousCalc = calc.value;
+        const newCalc = previousCalc + number;
+        calc.value = newCalc;
+    }
+})
