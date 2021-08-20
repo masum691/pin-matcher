@@ -36,11 +36,16 @@ document.getElementById('key-pad').addEventListener('click', function(event){
 function verifyPin(){
     const pin = document.getElementById('display-pin').value;
     const displayNum = document.getElementById('display-number').value;
+    const successMessage = document.getElementById('notify-success');
+    const failMessage = document.getElementById('notify-fail');
     if(pin == displayNum){
-        alert('matched')
+        successMessage.style.display = 'block';
+        failMessage.style.display = 'none';
     }
     else{
-        alert('opps. wrong')
+        
+        failMessage.style.display = 'block';
+        successMessage.style.display = 'none';
     }
 }
 
