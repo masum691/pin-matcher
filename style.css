@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #ededf0;
+    background: #ffffff;
     height: 100vh;
 }
 .container {
@@ -11,7 +11,7 @@ body {
 
 .half-width {
     height: 570px;
-    background: #e9e9eb;
+    background: #ffffff;
     box-shadow: 10px 10px 30px gray;
     border-radius: 12px;
     padding: 30px;
@@ -90,6 +90,7 @@ color: #E0B612;
     border-radius: 5px;
     background: #495BC3;
     color: #fff;
+    width: 60%;
 }
 .notify {
     color: #fff;
@@ -99,6 +100,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
